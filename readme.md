@@ -7,7 +7,7 @@ This project reproduces the KPCN architecture using **PyTorch** for the deep lea
 
 ### Denoising Results
 
-Here is a comparison between the noisy input (32spp), the denoised output by our KPCN implementation, and the reference image.
+Here is a comparison between the noisy input (32spp), the denoised output by our KPCN implementation, and the reference image. Evaluation was performed on the test scene(living-room-2) using the **250-epoch checkpoint**
 
 <table>
   <tr>
@@ -28,8 +28,8 @@ Quantitative evaluation was performed on the test scene. The metrics show a sign
 
 | Metric | Noisy Input (32spp) | KPCN Denoised | Improvement |
 | :--- | :---: | :---: | :---: |
-| **PSNR** | 22.99 dB | **27.74 dB** | 🔺 +4.75 dB |
-| **SSIM** | 0.4937 | **0.7765** | 🔺 +0.2828 |
+| **PSNR** | 22.99 | **27.74** | +4.75 |
+| **SSIM** | 0.4937 | **0.7765** | +0.2828 |
 
 
 ### Dataset
