@@ -1,0 +1,15 @@
+# --- System ---
+.vscode/
+.DS_store
+.idea/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+
+# --- Files ---
+dataset/data_cache/
+checkpoints/
+scenes/
+generate_exr.py
